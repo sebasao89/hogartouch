@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hogartouch';
+
+  rutaImg: string = 'https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg' 
+  
+  public title: string = "";
+
+  imgLoaded() {
+    console.log("Loaded padre")
+  }
+
 }
